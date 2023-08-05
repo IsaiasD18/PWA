@@ -1,6 +1,6 @@
 /* app shell CSS */
 :root {
-  --primary: #31a9e1;
+  --primary: green;
   --gray: #ececec;
   --whitesmoke: #f5f5f5;
   --dark: #222;
@@ -184,12 +184,16 @@ h1 {
 }
 
 .btn.btn-link {
-  background-color: #1b89bc;
+  background-color: green;
   color: #ffffff;
 }
 
 .btn.btn-link:hover {
-  background-color: #31a9e1;
+  background-color: green;
+}
+
+.nav-wrapper {
+  background: linear-gradient(to top, rgb(2, 49, 2), #25eb7e);
 }
 
 @media only screen and (max-width: 600px) {
