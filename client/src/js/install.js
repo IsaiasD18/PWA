@@ -1,4 +1,4 @@
-const butInstall = document.getElementById('buttonInstall');
+const butInstall = document.querySelector('#buttonInstall');
 
 // Logic for installing the PWA
 
